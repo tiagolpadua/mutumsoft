@@ -15,19 +15,19 @@ intro:
 feature_row:
   - title: "Desenvolvimento de Software"
     excerpt: "Aplicações web e mobile personalizadas, desenvolvidas com as mais modernas tecnologias e melhores práticas do mercado."
-    url: "#development"
-    btn_label: "Saiba mais"
-    btn_class: "btn--primary"
+    # url: "#development"
+    # btn_label: "Saiba mais"
+    # btn_class: "btn--primary"
   - title: "Consultoria Tecnológica"
     excerpt: "Orientação estratégica para escolha de tecnologias, arquitetura de sistemas e otimização de processos digitais."
-    url: "#consulting"
-    btn_label: "Saiba mais"
-    btn_class: "btn--primary"
+    # url: "#consulting"
+    # btn_label: "Saiba mais"
+    # btn_class: "btn--primary"
   - title: "Automação de Processos"
     excerpt: "Automatização de tarefas repetitivas e integração de sistemas para aumentar a eficiência operacional."
-    url: "#automation"
-    btn_label: "Saiba mais"
-    btn_class: "btn--primary"
+    # url: "#automation"
+    # btn_label: "Saiba mais"
+    # btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
