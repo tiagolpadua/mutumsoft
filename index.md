@@ -5,7 +5,7 @@ excerpt: "Soluções tecnológicas inovadoras para o seu negócio"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/hero-bg.jpg
+  overlay_image: /assets/images/mutum.png
   actions:
     - label: "Conheça nossos serviços"
       url: "#services"
@@ -13,23 +13,17 @@ header:
 intro: 
   - excerpt: 'Transformamos ideias em soluções digitais que impulsionam o crescimento do seu negócio. Com expertise em desenvolvimento de software, consultoria tecnológica e automação de processos.'
 feature_row:
-  - image_path: /assets/images/development-icon.jpg
-    alt: "Desenvolvimento de Software"
-    title: "Desenvolvimento de Software"
+  - title: "Desenvolvimento de Software"
     excerpt: "Aplicações web e mobile personalizadas, desenvolvidas com as mais modernas tecnologias e melhores práticas do mercado."
     url: "#development"
     btn_label: "Saiba mais"
     btn_class: "btn--primary"
-  - image_path: /assets/images/consulting-icon.jpg
-    alt: "Consultoria Tecnológica"
-    title: "Consultoria Tecnológica"
+  - title: "Consultoria Tecnológica"
     excerpt: "Orientação estratégica para escolha de tecnologias, arquitetura de sistemas e otimização de processos digitais."
     url: "#consulting"
     btn_label: "Saiba mais"
     btn_class: "btn--primary"
-  - image_path: /assets/images/automation-icon.jpg
-    alt: "Automação de Processos"
-    title: "Automação de Processos"
+  - title: "Automação de Processos"
     excerpt: "Automatização de tarefas repetitivas e integração de sistemas para aumentar a eficiência operacional."
     url: "#automation"
     btn_label: "Saiba mais"
@@ -86,5 +80,6 @@ feature_row:
 Pronto para transformar sua ideia em realidade? Entre em contato conosco e vamos conversar sobre como podemos ajudar seu negócio a crescer.
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="mailto:mutumsoft@gmail.com" class="btn btn--primary btn--large">Fale Conosco</a>
+  <a href="mailto:mutumsoft@gmail.com" class="btn btn--primary btn--large">📧 Fale Conosco</a>
+  <a href="https://wa.me/556192757212" class="btn btn--primary btn--large" target="_blank">📱 WhatsApp</a>
 </div>

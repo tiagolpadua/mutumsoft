@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Sobre a Mutum Soft
 permalink: /about/
 ---
@@ -22,18 +22,21 @@ Transformar ideias em soluções digitais inovadoras que impulsionam o crescimen
 ## Nossa Expertise
 
 ### Desenvolvimento de Software
+
 - Aplicações web modernas e responsivas
 - Aplicativos móveis nativos e híbridos
 - APIs e microserviços
 - Sistemas de gestão empresarial
 
 ### Consultoria Tecnológica
+
 - Arquitetura de sistemas
 - Escolha de tecnologias
 - Otimização de performance
 - Estratégias de modernização
 
 ### Automação de Processos
+
 - Integração de sistemas
 - Automação de workflows
 - Análise e otimização de processos
