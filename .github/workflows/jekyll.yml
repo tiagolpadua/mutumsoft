@@ -45,7 +45,8 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        # run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
@@ -82,7 +83,7 @@ jobs:
       - name: Extract artifact
         run: |
           cd _site
-          tar -xf artifact.tar
+          tar -xvf artifact.tar
           rm artifact.tar
       - name: Deploy to HostGator FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -90,6 +91,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          log-level: verbose
           local-dir: ./_site/
           server-dir: ./
           exclude: |
