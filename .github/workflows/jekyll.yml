@@ -53,8 +53,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job
-  deploy-hostgator:
-    if: false  # Disable this job
+  deploy-gh-pages:
+    # if: false  # Disable this job
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -66,7 +66,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   # FTP deployment job
-  deploy-ftp:
+  deploy-hostgator:
     environment:
       name: github-pages
     runs-on: ubuntu-latest
