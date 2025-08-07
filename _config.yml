@@ -24,9 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Mutum Soft - Soluções tecnológicas inovadoras para o seu negócio. 
   Desenvolvimento de software, consultoria tecnológica e automação de processos 
   para impulsionar o crescimento da sua empresa.
-domain: tiagolpadua.github.io
-url: https://tiagolpadua.github.io
-baseurl: /mutumsoft
+domain: mutumsoft.com.br
+url: https://mutumsoft.com.br
+baseurl: /
 twitter_username: tiagolpadua
 github_username:  tiagolpadua
 
