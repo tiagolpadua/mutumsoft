@@ -66,6 +66,8 @@ jobs:
 
   # FTP deployment job
   deploy-ftp:
+    environment:
+      name: github-pages
     runs-on: ubuntu-latest
     needs: build
     steps:
