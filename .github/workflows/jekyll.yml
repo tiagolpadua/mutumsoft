@@ -45,7 +45,8 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        # run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
@@ -54,7 +55,7 @@ jobs:
 
   # Deployment job
   deploy-gh-pages:
-    # if: false  # Disable this job
+    if: false  # Disable this job
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
