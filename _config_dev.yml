@@ -1,0 +1,19 @@
+# Development-specific configuration
+# This file should be used with: bundle exec jekyll serve --config _config.yml,_config_dev.yml
+
+# Override for development
+url: "http://localhost:4000"
+baseurl: ""
+
+# Enable additional features for development
+show_drafts: true
+unpublished: true
+future: true
+
+# Performance optimizations for development
+incremental: true
+profile: true
+
+# LiveReload settings
+livereload: true
+livereload_port: 35729
