@@ -29,6 +29,7 @@ url: https://mutumsoft.com.br
 baseurl: /
 twitter_username: tiagolpadua
 github_username:  tiagolpadua
+encoding: utf-8
 
 # Build settings
 theme: minimal-mistakes-jekyll
